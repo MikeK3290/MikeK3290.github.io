@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intital-scale=1">
+
+<style>
+  @media screen and (max-width: 480px) {
+body {
+    font-size: 0.7rem;
+  } 
+  
+  .Style 
+  {
+    
+  }
+  
+  img 
+  {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+    justify-content: center;
+            align-items: center;
+  }
+  
+  }
+ 
+
+
+
+.Style
+{
+  
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  list-style-type: none;
+  max-height: 250px;
+  overflow: auto;/* to get scroll */
+  padding: 1%;
+  margin: 0;
+  left: 0;
+  row-gap: 10px;
+  background: white;
+  
+  
+  /*
+  
+  
+ height: 100%;
+  position: fixed;
+  padding: 1%;
+  margin: 0;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  border: 1px solid black;
+  gap: 10px;
+  list-style-type: none;
+  
+  
+  max-height: 250px;/* you can change as you need it */
+  /*overflow: auto;/* to get scroll */
+  
+  
+}
+
+.Header 
+{
+width: 100%;
+background: rgb(150, 150, 150);
+text-align: center;
+padding: 25px;
+border: 1px solid green;
+}
+
+.Links {
+ 
+  position: fixed;
+  padding: 1%;
+  margin: 0;
+  top: 0;
+  left: 0;
+  display: table;
+  color: white;
+  background-color: black;
+  
+}
+
+.Links-content {
+  display: none;
+  position: absolute;
+  padding: 1%;
+  left: 0;
+  margin: 0;
+  background-color: #f9f9f9;
+  z-index: 1;
+  border: 1px solid black;
+  
+}
+
+.Links:hover .Links-content {
+  display: block;
+ 
+}
+
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: top;
+  gap: 16px;
+  margin: 0 auto;
+  padding: 30px 10px;
+  max-width: auto;
+}
+
+.unit 
+{
+  max-width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.gallery img {
+  
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}
+
+
+  </style>
+  
+</head>
+
+<main>
+<body>
+
+
+<div class="Links">
+<p>Links:</p>
+<div class="Links-content">
+<ol class="Style">
+<li><a href="#Image_One">Image One</a></li>
+<li><a href="#Image_Two">Image Two</a></li>
+<li><a href="#Image_Three">Image Three</a></li>
+<li><a href="#Image_Four">Image Four</a></li>
+<li><a href="#Image_Five">Image Five</a></li>
+<li><a href="#Image_Six">Image Six</a></li>
+<li><a href="#Image_Seven">Image Seven</a></li>
+<li><a href="#Image_Eight">Image Eight</a></li>
+<li><a href="#Image_Nine">Image Nine</a></li>
+<li><a href="#Image_Nine">Image Ten</a></li>
+<li><a href="#Image_Nine">Image Eleven</a></li>
+<li><a href="#Image_Nine">Link</a></li>
+<li><a href="#Image_Nine">Link</a></li>
+<li><a href="#Image_Nine">Link</a></li>
+<li><a href="#Image_Nine">Link</a></li>
+<li><a href="#Image_Nine">Link</a></li>
+<li><a href="#Image_Nine">Link</a></li>
+</ol>
+</div>
+</div>
+
+
+
+<div class="Header">
+<h1>Magazine</h1>
+<p>Check out the numerous images of labs</p>
+</div>
+
+
+
+
+
+
+
+
+<div class="gallery">
+
+
+<div class="unit">
+<img id="Image_One" src=""/>
+<p>This is one of our labs, located in San Diego and has over 900 personnel.</p>
+</div>
+
+
+<div class="unit">
+  <img id="Image_Two" src=""/>
+  <p>This is one of our older facilities, and also our smallest. The number of personnel is less than 100.</p>
+</div>
+
+<div>
+
+  <img id="Image_Three" src=""/>
+</div>
+
+<div>
+  <img id="Image_Four" src=""/>
+</div>
+
+<div>
+  <img id="Image_Five" src=""/>
+</div>
+
+</div>
+
+
+<div>
+<hr>
+<h1>
+  Contact Info:
+</h1>
+</div>
+
+</body>
+</main>
+</html>
+
